@@ -94,7 +94,7 @@ hist(totalStepsDay$steps, breaks=20, xlab="Number of Steps Taken",
      col=paletteBlue(22), family="serif")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](https://github.com/RithikaSrikurmam/RepData_PeerAssessment1/blob/master/unnamed-chunk-5-1.png) 
 
 Finally, the summarise function can calculate the mean and median values of the total number of steps taken per day.
 
@@ -143,7 +143,7 @@ plot(x=meanStepsInterval$interval, y=meanStepsInterval$steps, type="l",
      col="darkblue", lwd=1.5, family="serif")
 ```
 
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png) 
+![plot of chunk unnamed-chunk-8](https://github.com/RithikaSrikurmam/RepData_PeerAssessment1/blob/master/unnamed-chunk-8-1.png) 
 
 The last part of this question asks "which five minute interval contains the maximum number of steps?" To answer this the max function can be used, which prints out the maximum value from a numeric vector.
 
@@ -241,7 +241,7 @@ hist(imputedTotalStepsDay$steps, breaks=20, xlab="Number of Steps Taken",
      col=paletteRed(22), family="serif")
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
+![plot of chunk unnamed-chunk-14](https://github.com/RithikaSrikurmam/RepData_PeerAssessment1/blob/master/unnamed-chunk-14-1.png) 
 
 The question then asks for calculation of the mean and median total number of steps taken per day, which can be calculated using the summarise function.
 
@@ -287,7 +287,7 @@ mtext("Histograms of Total Number of Steps Taken per Day, Without/With Imputed V
       adj=0.95, family="serif", font=2)
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17-1.png) 
+![plot of chunk unnamed-chunk-17](https://github.com/RithikaSrikurmam/RepData_PeerAssessment1/blob/master/unnamed-chunk-17-1.png) 
 
 It can be seen that the frequency of values increases in the second histogram, which is expected, due to the imputed values. 
 
@@ -384,4 +384,4 @@ plot(weekendMean$interval, weekendMean$steps, type="l",
      col="darkblue", lwd=1.5, ylim=c(0, 230))
 ```
 
-![plot of chunk unnamed-chunk-23](figure/unnamed-chunk-23-1.png) 
+![plot of chunk unnamed-chunk-23](https://github.com/RithikaSrikurmam/RepData_PeerAssessment1/blob/master/unnamed-chunk-23-1.png) 
